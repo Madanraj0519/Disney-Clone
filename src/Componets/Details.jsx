@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import { IMAGE_BASE_URL } from '../Constant/Api_key';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchMovieDetails } from '../features/Movie/movieDetail';
 import {fetchMovieVideos} from "../features/Movie/movieVideo";
